@@ -1,6 +1,6 @@
 /**
  * WinDxArchive FileManager(Application entrypoint).
- * Author;  tk-xleader.
+ * Author:  tk-xleader.
  * License: MIT License.
  * */
 using System;
@@ -10,7 +10,7 @@ namespace WinDxArchive{
 	class FileManager{
 		/// Application entrypoint.
 		public static void Main(string[] args){
-			Application.Run(new Form());
+			Application.Run(new MainForm());
 		}
 	}
 }
